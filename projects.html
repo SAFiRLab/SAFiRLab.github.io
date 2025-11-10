@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>SAFiR Lab</title>
+    <link rel="icon" href="fav.png">
+    <!--<script defer="defer" src="main.e7c7970a12833611eb02.js"></script>-->
+    <link href="css/index.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navigation-bar">
+        <div class="navbar__logo">
+            <li class="navigation__item navigation__logo" id="nav-logo">
+                <a href="index.html#home">
+                    <img src="assets/logo.png" alt="Logo" class="logo-icon"/>
+                </a>
+            </li>
+            <div class="navbar__safirlab">
+                <a href="index.html#home">SAFiR Lab</a>
+            </div>
+        </div>
+
+        <ul class="navigation">
+            <li class="dropdown__parent" id="dropdown_menu">
+            <a href="javascript:void(0)" class="dropdown__toggle">
+                <img src="assets/hamburger_menu.svg" alt="Menu" class="dropdown__icon">
+            </a>
+            </li>
+        </ul>
+    </nav>
+
+    <ul class="dropdown">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a class="dropdown__active" onclick="return false;">Projects</a></li>
+        <li><a href="publications.html#papers">Papers</a></li>
+        <li><a href="equipe.html#team">Team</a></li>
+        <li><a href="contact.html#contact">Contact Us</a></li>
+    </ul>
+
+    <div id="projects"></div>
+
+    <div class="home">
+            <div class="heading">
+            </div>
+
+            <div class="canvas">
+                <div class="canvas__bottom">
+                </div>
+            </div>
+        </div>
+
+    <footer class="global__footer">
+        <a href="#projects">
+            <div class="return-home">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24">
+                    <title></title>
+                    <path fill="#fafafa" d="M17.707 10.293l-5-5c-0.391-0.391-1.024-0.391-1.414 0l-5 5c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l4.293-4.293 4.293 4.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414zM17.707 17.293l-5-5c-0.391-0.391-1.024-0.391-1.414 0l-5 5c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l4.293-4.293 4.293 4.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414z"></path>
+                </svg>
+            </div>
+        </a>
+        <div class="socials">
+            <a href="mailto:Louis.Petit@USherbrooke.ca" target="_blank">
+                <div class="socials__email">
+                    <img src="assets/mail.png" alt=""/>
+                </div>
+            </a>
+            <a href="https://github.com/SAFiRLab" target="_blank">
+                <div class="socials__github">
+                    <img src="assets/github-mark-white.png" alt=""/>
+                </div>
+            </a>
+            <a href="https://scholar.google.fr/citations?user=hRBrqKIAAAAJ&hl=en" target="_blank">
+                <div class="socials__scholar">
+                    <img src="assets/scholar_logo.png" alt=""/>
+                </div>
+            </a>
+            <a href="https://orcid.org/0000-0002-8100-7022" target="_blank">
+                <div class="socials__orcidid">
+                    <img src="assets/ORCID-iD_icon.png" alt=""/>
+                </div>
+            </a>
+        </div>
+        <div class="copyright__container">
+        <p class="copyright__texts">
+            All rights reserved @ SAFiR Lab
+        </p>
+        <p class="copyright_confidentiality">
+            <a href="https://www.usherbrooke.ca/decouvrir/confidentialite" target="_blank">Confidentiality policy</a>
+        </p>
+        </div>
+    </footer>
+
+    <script src="js/navbar.js"></script>
+  </body>
+</html>
