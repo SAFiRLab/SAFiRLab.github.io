@@ -127,7 +127,6 @@ button {
 .background__image {
   position: relative;
   width: 100%;
-  margin-top: 6rem;
   overflow: hidden;
 }
 
@@ -135,12 +134,11 @@ button {
   width: 100%;
   height: auto;
   display: block;
-  object-fit: cover;
 }
 
 .home {
     position: relative;
-    display: flex;
+    display: block;
     height: 100vh;
     width: 100%;
     z-index: 999
@@ -367,7 +365,7 @@ button {
     background-color: rgba(40,40,40,0.95);
     backdrop-filter: blur(8px);
     box-shadow: 0 4px 4px rgba(0,0,0,0.3);
-    z-index: 99999999999
+    z-index: 99999999999;
 }
 
 .navbar__logo {
@@ -486,102 +484,5 @@ button {
 /* ******************** */
 
 
-/* Footer */
 
-.global__footer {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 160px;
-    background-color: #282828
-}
-
-.socials {
-    display: flex;
-    margin-bottom: 20px
-}
-
-.socials__github,.socials__email,.socials__orcidid,.socials__scholar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35px;
-    background-color: transparent;
-    cursor: pointer;
-    transition: all 0.2s
-}
-
-.socials__github:hover,.socials__email:hover,.socials__orcidid:hover,.socials__scholar:hover {
-    transform: scale(1.2)
-}
-
-.socials__github,.socials__email,.socials__orcidid,.socials__scholar {
-    margin-right: 1rem
-}
-
-.socials img {
-    height: 100%
-}
-
-.copyright__container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.copyright__texts {
-  color: #fafafa74;
-  font-size: 10px;
-  font-weight: 500;
-  padding-right: 2rem;
-}
-
-
-.copyright_confidentiality {
-  color: #fafafa;
-  font-size: 10px;
-  font-weight: 700;
-  padding-right: 2rem;
-}
-
-.copyright_confidentiality:hover {
-  color: #008ec9;
-  text-decoration: underline;
-}
-
-.return-home {
-    position: absolute;
-    top: -25px;
-    width: 40px;
-    height: 45px;
-    margin-right: auto;
-    margin-left: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-    background-color: #008ec9;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    -webkit-animation-iteration-count: infinite;
-    z-index: 999
-}
-
-.return-home:hover {
-    cursor: pointer;
-    animation-name: bounce;
-    -moz-animation-name: bounce
-}
-
-.return-home svg {
-    width: 100%
-}
 /* ******************** */

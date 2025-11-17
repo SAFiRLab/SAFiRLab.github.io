@@ -1,0 +1,98 @@
+/* Basic resets */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: Montserrat, sans-serif;
+  color: #222;
+  line-height: 1.5;
+  background-color: #f8f9fb;
+}
+
+.team_content {
+    text-align: center;
+}
+
+.team_body {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+}
+
+.team_body h2 {
+  font-size: 4rem;
+  color: #000000a6;
+  margin-bottom: 1.5rem;
+}
+
+/* Header */
+.team-header {
+  position: absolute;
+  top: 50%;
+  color: white;
+  text-align: left;
+  z-index: 10;
+  margin-left: 5rem;
+}
+
+/* Optional: larger, more dramatic overlay text */
+.team-header h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  text-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+
+.team-header p {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: white;
+}
+
+/* Grid for team cards */
+.grid-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    align-self: center;
+}
+.card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(20,30,50,0.06);
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+.card p {
+  color: #666;
+  margin-bottom: 1rem;
+}
+.card p a {
+  color: #008ec9;
+  text-decoration: none;
+  font-weight: 600;
+}
+.card p a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.team-footer {
+  text-align: center;
+  margin-top: 5rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e6e9ee;
+  color: #888;
+  font-size: 0.9rem;
+}
