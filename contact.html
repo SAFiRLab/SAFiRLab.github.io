@@ -1,19 +1,23 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>SAFiR Lab</title>
     <link rel="icon" href="fav.png">
     <!--<script defer="defer" src="main.e7c7970a12833611eb02.js"></script>-->
     <link href="css/index.css" rel="stylesheet">
-  </head>
-  <body>
+    <link href="css/equipe.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+</head>
+
+<body>
     <nav class="navigation-bar">
         <div class="navbar__logo">
             <li class="navigation__item navigation__logo" id="nav-logo">
                 <a href="index.html#home">
-                    <img src="assets/logo.png" alt="Logo" class="logo-icon"/>
+                    <img src="assets/logo.png" alt="Logo" class="logo-icon" />
                 </a>
             </li>
             <div class="navbar__safirlab">
@@ -23,9 +27,9 @@
 
         <ul class="navigation">
             <li class="dropdown__parent" id="dropdown_menu">
-            <a href="javascript:void(0)" class="dropdown__toggle">
-                <img src="assets/hamburger_menu.svg" alt="Menu" class="dropdown__icon">
-            </a>
+                <a href="javascript:void(0)" class="dropdown__toggle">
+                    <img src="assets/hamburger_menu.svg" alt="Menu" class="dropdown__icon">
+                </a>
             </li>
         </ul>
     </nav>
@@ -38,59 +42,134 @@
         <li><a class="dropdown__active" onclick="return false;">Contact Us</a></li>
     </ul>
 
-    <div id="contact"></div>
+    <div class="top_buffer" id="contact"></div>
 
-    <div class="home">
-            <div class="heading">
+    <div class="page_container team_content">
+        <div class="background__image">
+            <img src="assets/DSC_5108.jpg" alt="Banner">
+        </div>
+        <header class="team-header">
+            <h1 style="font-size: 10rem; margin-bottom: 1rem;">Contact Us</h1>
+            <p style="font-size: 6.5rem;">Get in touch!</p>
+        </header>
+        <div class="container_md">
+            <div style="text-align: center; max-width: 70rem; margin: 2rem auto 4rem; color: #1a1a1a;">
+                <h2 style="font-size: 3.2rem; margin-bottom: 1rem; color: #1a1a1a;">Let's collaborate</h2>
+                <p style="font-size: 1.8rem; line-height: 1.6; color: #4a4a4a;">
+                    Have a research idea, looking for an internship or graduate studies, or exploring a partnership?
+                    We'd love to hear from you.
+                </p>
             </div>
+            <section class="team_body">
+                <div class="grid-cards" style="gap: 3rem; padding: 2rem;">
+                    <article class="card" style="padding: 2.5rem;">
+                        <img src="assets/logo.png" alt="SAFIR Lab"
+                            style="height: 230px; object-fit: contain; margin-bottom: 1.5rem;">
+                        <h3>SAFIR Lab</h3>
+                        <p style="color: #666; margin-top: 0.5rem;">Follow us on LinkedIn</p>
 
-            <div class="canvas">
-                <div class="canvas__bottom">
+                        <div style="text-align: center; margin: 1.5rem 0;">
+                            <p style="margin-bottom: 1rem;">
+                                Stay updated with our latest research, projects, and team news.
+                            </p>
+                            <p>
+                                <a href="https://www.linkedin.com/company/safir-lab/posts/?feedView=all"
+                                    style="display: inline-block; background-color: #008ec9; color: white; padding: 0.7rem 1.5rem; border-radius: 6px; text-decoration: none; font-weight: 600;">Visit
+                                    SAFIR Lab LinkedIn</a>
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="card" style="padding: 2.5rem;">
+                        <img src="assets/memberLP.jpg" alt="Louis Petit"
+                            style="height: 230px; object-fit: cover; margin-bottom: 1.5rem;">
+                        <h3>Louis Petit</h3>
+                        <h4>Ph.D. — Professeur titulaire</h4>
+
+                        <div style="text-align: center; margin: 1.5rem 0;">
+                            <p><strong>Contact Information</strong><br>
+                                Louis.Petit@USherbrooke.ca
+                            </p>
+
+                            <p style="margin-top: 0.8rem;">
+                                <strong>Phone:</strong><br>
+                                819 821-8000, poste 65703
+                            </p>
+
+                            <p style="margin-top: 0.8rem;">
+                                <a href="mailto:Louis.Petit@USherbrooke.ca"
+                                    style="color: #008ec9; font-weight: 600;">Email</a> •
+                                <a href="https://www.linkedin.com/in/louis-petit/"
+                                    style="color: #008ec9; font-weight: 600;">LinkedIn</a>
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="card" style="padding: 2.5rem;">
+                        <img src="assets/3it.jpg" alt="Location"
+                            style="height: 230px; object-fit: cover; border-radius: 8px; margin-bottom: 1.5rem;">
+                        <h3>Location</h3>
+
+                        <div style="text-align: left; margin: 1rem 0;">
+                            <p><strong>Université de Sherbrooke</strong></p>
+                            <p>Parc Innovation, Pavillon P2<br>
+                                3000, boulevard de l'Université<br>
+                                Sherbrooke (Québec) J1K 0A5<br>
+                                <strong>Canada</strong>
+                            </p>
+
+                            <p style="margin-top: 1rem;"><strong>Office:</strong> P2-3007</p>
+                        </div>
+                    </article>
                 </div>
-            </div>
+            </section>
         </div>
 
-    <footer class="global__footer">
-        <a href="#contact">
-            <div class="return-home">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24">
-                    <title></title>
-                    <path fill="#fafafa" d="M17.707 10.293l-5-5c-0.391-0.391-1.024-0.391-1.414 0l-5 5c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l4.293-4.293 4.293 4.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414zM17.707 17.293l-5-5c-0.391-0.391-1.024-0.391-1.414 0l-5 5c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l4.293-4.293 4.293 4.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414z"></path>
-                </svg>
+        <footer class=" global__footer">
+            <a href="#contact">
+                <div class="return-home">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24">
+                        <title></title>
+                        <path fill="#fafafa"
+                            d="M17.707 10.293l-5-5c-0.391-0.391-1.024-0.391-1.414 0l-5 5c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l4.293-4.293 4.293 4.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414zM17.707 17.293l-5-5c-0.391-0.391-1.024-0.391-1.414 0l-5 5c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l4.293-4.293 4.293 4.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414z">
+                        </path>
+                    </svg>
+                </div>
+            </a>
+            <div class="socials">
+                <a href="mailto:Louis.Petit@USherbrooke.ca" target="_blank">
+                    <div class="socials__email">
+                        <img src="assets/mail.png" alt="" />
+                    </div>
+                </a>
+                <a href="https://github.com/SAFiRLab" target="_blank">
+                    <div class="socials__github">
+                        <img src="assets/github-mark-white.png" alt="" />
+                    </div>
+                </a>
+                <a href="https://scholar.google.fr/citations?user=hRBrqKIAAAAJ&hl=en" target="_blank">
+                    <div class="socials__scholar">
+                        <img src="assets/scholar_logo.png" alt="" />
+                    </div>
+                </a>
+                <a href="https://orcid.org/0000-0002-8100-7022" target="_blank">
+                    <div class="socials__orcidid">
+                        <img src="assets/ORCID-iD_icon.png" alt="" />
+                    </div>
+                </a>
             </div>
-        </a>
-        <div class="socials">
-            <a href="mailto:Louis.Petit@USherbrooke.ca" target="_blank">
-                <div class="socials__email">
-                    <img src="assets/mail.png" alt=""/>
-                </div>
-            </a>
-            <a href="https://github.com/SAFiRLab" target="_blank">
-                <div class="socials__github">
-                    <img src="assets/github-mark-white.png" alt=""/>
-                </div>
-            </a>
-            <a href="https://scholar.google.fr/citations?user=hRBrqKIAAAAJ&hl=en" target="_blank">
-                <div class="socials__scholar">
-                    <img src="assets/scholar_logo.png" alt=""/>
-                </div>
-            </a>
-            <a href="https://orcid.org/0000-0002-8100-7022" target="_blank">
-                <div class="socials__orcidid">
-                    <img src="assets/ORCID-iD_icon.png" alt=""/>
-                </div>
-            </a>
-        </div>
-        <div class="copyright__container">
-        <p class="copyright__texts">
-            All rights reserved @ SAFiR Lab
-        </p>
-        <p class="copyright_confidentiality">
-            <a href="https://www.usherbrooke.ca/decouvrir/confidentialite" target="_blank">Confidentiality policy</a>
-        </p>
-        </div>
-    </footer>
+            <div class="copyright__container">
+                <p class="copyright__texts">
+                    All rights reserved @ SAFiR Lab
+                </p>
+                <p class="copyright_confidentiality">
+                    <a href="https://www.usherbrooke.ca/decouvrir/confidentialite" target="_blank">Confidentiality
+                        policy</a>
+                </p>
+            </div>
+        </footer>
 
-    <script src="js/navbar.js"></script>
-  </body>
+        <script src="js/navbar.js"></script>
+</body>
+
 </html>
