@@ -1,0 +1,135 @@
+/* Basic resets */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: Montserrat, sans-serif;
+  color: #222;
+  line-height: 1.5;
+  background-color: #f8f9fb;
+}
+
+.contact_content {
+    text-align: center;
+}
+
+.contact_body {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+}
+
+.contact_body h2 {
+  font-size: 4rem;
+  color: #000000a6;
+  margin-bottom: 1.5rem;
+}
+
+.contact_body p {
+  font-size: 2rem;
+  color: #000000a6;
+  margin-bottom: 1.5rem;
+}
+
+/* Header */
+.contact-header {
+  position: absolute;
+  top: 50%;
+  color: white;
+  text-align: left;
+  z-index: 10;
+  margin-left: 5rem;
+}
+
+/* Optional: larger, more dramatic overlay text */
+.contact-header h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  text-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+
+.contact-header p {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: white;
+}
+
+/* Grid for team cards */
+.grid-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    align-self: center;
+    justify-content: center;
+}
+.card {
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(20,30,50,0.06);
+  text-align: center;
+  object-fit: cover;
+  max-width: 33%;
+}
+.card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  object-fit: contain;
+}
+.card h3 {
+  font-size: 2.1rem;
+  margin-bottom: 0.5rem;
+}
+.card h4 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+.card p {
+  color: #666;
+  margin-bottom: 1rem;
+}
+.card p a {
+  color: #008ec9;
+  text-decoration: none;
+  font-weight: 600;
+}
+.card p a:hover {
+  text-decoration: underline;
+}
+
+.card p a.href_button {
+    display: inline-block;
+    background-color: #008ec9;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.card p a.href_link {
+    color: #008ec9;
+    font-weight: 600;
+    margin-bottom: auto;
+    align-self: flex-end;
+}
+
+.card-content {
+    margin: 1.5rem 0;
+}
+
+.card-content p {
+    margin-top: 0.8rem;
+}
+
+/* Footer */
+.contact-footer {
+  text-align: center;
+  margin-top: 5rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e6e9ee;
+  color: #888;
+  font-size: 0.9rem;
+}

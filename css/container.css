@@ -13,7 +13,7 @@
     max-width: calc(1194px + 5rem - 2rem);
     padding-left: 2.5rem;
     padding-right: 2.5rem;
-    display: inline-block;
+    display: inline-flex;
     text-align: left;
     box-sizing: border-box;
 }
@@ -32,26 +32,24 @@
 
 .socials {
     display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.socials__github,.socials__email,.socials__orcidid,.socials__scholar {
-    display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 1rem;
+}
+
+.socials__github,.socials__email,.socials__orcidid,.socials__scholar,.socials__linkedin,.socials__youtube {
+    display: flex;
     height: 35px;
     background-color: transparent;
     cursor: pointer;
-    transition: all 0.2s
+    transition: all 0.2s;
+    justify-self: center;
 }
 
-.socials__github:hover,.socials__email:hover,.socials__orcidid:hover,.socials__scholar:hover {
+.socials__github:hover,.socials__email:hover,.socials__orcidid:hover,.socials__scholar:hover,.socials__linkedin:hover,.socials__youtube:hover {
     transform: scale(1.2)
-}
-
-.socials__github,.socials__email,.socials__orcidid,.socials__scholar {
-    margin-right: 1rem
 }
 
 .socials img {

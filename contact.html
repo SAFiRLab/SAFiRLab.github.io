@@ -1,19 +1,23 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>SAFiR Lab</title>
     <link rel="icon" href="fav.png">
     <!--<script defer="defer" src="main.e7c7970a12833611eb02.js"></script>-->
     <link href="css/index.css" rel="stylesheet">
-  </head>
-  <body>
+    <link href="css/contact.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+</head>
+
+<body>
     <nav class="navigation-bar">
         <div class="navbar__logo">
             <li class="navigation__item navigation__logo" id="nav-logo">
                 <a href="index.html#home">
-                    <img src="assets/logo.png" alt="Logo" class="logo-icon"/>
+                    <img src="assets/logo.png" alt="Logo" class="logo-icon" />
                 </a>
             </li>
             <div class="navbar__safirlab">
@@ -23,12 +27,14 @@
 
         <ul class="navigation">
             <li class="dropdown__parent" id="dropdown_menu">
-            <a href="javascript:void(0)" class="dropdown__toggle">
-                <img src="assets/hamburger_menu.svg" alt="Menu" class="dropdown__icon">
-            </a>
+                <a href="javascript:void(0)" class="dropdown__toggle">
+                    <img src="assets/hamburger_menu.svg" alt="Menu" class="dropdown__icon">
+                </a>
             </li>
         </ul>
     </nav>
+
+    <div class="top_buffer" id="contact"></div>
 
     <ul class="dropdown">
         <li><a href="index.html#home">Home</a></li>
@@ -38,59 +44,105 @@
         <li><a class="dropdown__active" onclick="return false;">Contact Us</a></li>
     </ul>
 
-    <div id="contact"></div>
-
-    <div class="home">
-            <div class="heading">
+    <div>
+        <div class="page_container contact_content">
+            <div class="background__image">
+                <img src="assets/DSC_5108.jpg" alt="Banner">
             </div>
+            <header class="contact-header">
+                <h1>Contact Us</h1>
+                <p>Get in touch!</p>
+            </header>
+            <div class="container_md">
+                <section class="contact_body">
+                    <h2>Let's collaborate</h2>
+                    <p>
+                        Have a research idea, looking for an internship or graduate studies, or exploring a partnership?
+                        We'd love to hear from you.
+                    </p>
+                
+                    <div class="grid-cards">
+                        <article class="card">
+                            <img src="assets/logo.png" alt="SAFIR Lab">
+                            <h3>SAFIR Lab</h3>
+                            <h4>Follow us on LinkedIn</h4>
 
-            <div class="canvas">
-                <div class="canvas__bottom">
-                </div>
+                            <div class="card-content">
+                                <p>Stay updated with our latest research, projects, and team news.</p>
+                                <p><a href="https://www.linkedin.com/company/safir-lab/posts/?feedView=all" class="href_button">Visit SAFIR Lab LinkedIn</a></p>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <img src="assets/memberLP.jpg" alt="Louis Petit">
+                            <h3>Louis Petit</h3>
+                            <h4>Ph.D. — Professor</h4>
+
+                            <div class="card-content">
+                                <p><a href="mailto:Louis.Petit@USherbrooke.ca" class="href_link">Email</a>
+                                • <a href="https://www.linkedin.com/in/louis-petit/" class="href_link">LinkedIn</a></p>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <img src="assets/3it.jpg" alt="Location">
+                            <h3>Location</h3>
+                            <h4>Université de Sherbrooke</h4>
+
+                            <div class="card-content">
+                                <p>Parc Innovation, Pavillon P2<br>
+                                    3000, boulevard de l'Université<br>
+                                    Sherbrooke (Québec) J1K 0A5<br>
+                                    Canada
+                                </p>
+                                <p><a href="https://maps.app.goo.gl/4ZCFsZR2RMwUrHRR8" class="href_link">View on Google Maps</a></p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
             </div>
         </div>
+    </div>
 
-    <footer class="global__footer">
+    <footer class=" global__footer">
         <a href="#contact">
             <div class="return-home">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24">
                     <title></title>
-                    <path fill="#fafafa" d="M17.707 10.293l-5-5c-0.391-0.391-1.024-0.391-1.414 0l-5 5c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l4.293-4.293 4.293 4.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414zM17.707 17.293l-5-5c-0.391-0.391-1.024-0.391-1.414 0l-5 5c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l4.293-4.293 4.293 4.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414z"></path>
+                    <path fill="#fafafa"
+                        d="M17.707 10.293l-5-5c-0.391-0.391-1.024-0.391-1.414 0l-5 5c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l4.293-4.293 4.293 4.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414zM17.707 17.293l-5-5c-0.391-0.391-1.024-0.391-1.414 0l-5 5c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l4.293-4.293 4.293 4.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414z">
+                    </path>
                 </svg>
             </div>
         </a>
         <div class="socials">
-            <a href="mailto:Louis.Petit@USherbrooke.ca" target="_blank">
-                <div class="socials__email">
-                    <img src="assets/mail.png" alt=""/>
-                </div>
-            </a>
             <a href="https://github.com/SAFiRLab" target="_blank">
                 <div class="socials__github">
                     <img src="assets/github-mark-white.png" alt=""/>
                 </div>
             </a>
-            <a href="https://scholar.google.fr/citations?user=hRBrqKIAAAAJ&hl=en" target="_blank">
-                <div class="socials__scholar">
-                    <img src="assets/scholar_logo.png" alt=""/>
+            <a href="https://www.linkedin.com/company/safir-lab" target="_blank">
+                <div class="socials__linkedin">
+                    <img src="assets/linkedin_icon.png" alt=""/>
                 </div>
             </a>
-            <a href="https://orcid.org/0000-0002-8100-7022" target="_blank">
-                <div class="socials__orcidid">
-                    <img src="assets/ORCID-iD_icon.png" alt=""/>
+            <a href="https://www.youtube.com/@SAFiRLab" target="_blank">
+                <div class="socials__youtube">
+                    <img src="assets/youtube-icon.png" alt=""/>
                 </div>
             </a>
         </div>
         <div class="copyright__container">
-        <p class="copyright__texts">
-            All rights reserved @ SAFiR Lab
-        </p>
-        <p class="copyright_confidentiality">
-            <a href="https://www.usherbrooke.ca/decouvrir/confidentialite" target="_blank">Confidentiality policy</a>
-        </p>
+            <p class="copyright__texts">
+                All rights reserved @ SAFiR Lab
+            </p>
+            <p class="copyright_confidentiality">
+                <a href="https://www.usherbrooke.ca/decouvrir/confidentialite" target="_blank">Confidentiality policy</a>
+            </p>
         </div>
     </footer>
 
     <script src="js/navbar.js"></script>
-  </body>
+</body>
+
 </html>
