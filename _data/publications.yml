@@ -1,0 +1,80 @@
+- year: 2027
+  authors: Bonilla, W., Poissant, D., Boisvert, M., Meger, D. & Petit, L.
+  title: "FLINT: Fast Lightweight Inference for Traversability."
+  venue: 2027 IEEE International Conference on Robotics and Automation (ICRA)
+  note: under review
+- year: 2027
+  authors: Bary, T., Macq, B. & Petit, L.
+  title: "No Need for Learning to Defer? A Training Free Deferral Framework to Multiple Experts through Conformal Prediction."
+  venue: 2027 AAAI Conference on Artificial Intelligence
+  note: under review
+  links:
+    - name: PDF
+      url: https://arxiv.org/abs/2509.12573
+- year: 2026
+  authors: Poissant, D., Desbiens, A.L., Ferland, F. & Petit, L.
+  title: "ARENA: Adaptive Risk-aware Navigation for Autonomous Aerial Inspection."
+  venue: IEEE Robotics and Automation Letters (RA-L)
+  note: under review
+  links:
+    - name: PDF
+      url: https://arxiv.org/abs/2502.19401
+- year: 2026
+  authors: Zhu, J., Bary, T., Petit, L. & Shangpeng, S.
+  title: "DDS-Mamba-YOLO: Improved adaptive state-space modeling for tomato fruit and leaf disease detection."
+  venue: Smart Agricultural Technology
+  links:
+    - name: ScienceDirect
+      url: https://www.sciencedirect.com/science/article/pii/S2772375526006490
+- year: 2025
+  authors: Tremblay, J., Alhosh, J., Petit, L., Lotfi, F., Landauro, L. & Meger, D.
+  title: "Topological mapping for traversability-aware long-range navigation in off-road terrain."
+  venue: 2025 IEEE International Conference on Robotics and Automation (ICRA)
+  links:
+    - name: IEEE Xplore
+      url: https://ieeexplore.ieee.org/document/11128536
+    - name: PDF
+      url: https://arxiv.org/abs/2410.01925
+    - name: GitHub
+      url: https://github.com/jefft255/trav_aware_topological_mapping
+- year: 2024
+  authors: Petit, L. & Desbiens, A.L.
+  title: "MOAR Planner: Multi-Objective and Adaptive Risk-Aware Path Planning for Infrastructure Inspection with a UAV."
+  venue: 2024 IEEE International Conference on Robotics and Automation (ICRA)
+  links:
+    - name: IEEE Xplore
+      url: https://ieeexplore.ieee.org/document/10610907
+    - name: PDF
+      url: https://arxiv.org/abs/2606.30575
+    - name: Demo
+      url: https://www.louispetit.be/demo/moar-demo
+- year: 2023
+  authors: Petit, L.
+  title: "Enabling Efficient Autonomous Exploration of Unknown Underground Mining Stopes using a Tethered Aerial Robot"
+  venue: PhD thesis, Université de Sherbrooke
+  links:
+    - name: PDF
+      url: https://savoirs.usherbrooke.ca/handle/11143/20205
+- year: 2022
+  authors: Petit, L. & Desbiens, A.L.
+  title: "TAPE: Tether-Aware Path Planning for Autonomous Exploration of Unknown 3D Cavities Using a Tangle-Compatible Tethered Aerial Robot."
+  venue: IEEE Robotics and Automation Letters (RA-L)
+  links:
+    - name: IEEE Xplore
+      url: https://ieeexplore.ieee.org/document/9844242
+    - name: PDF
+      url: https://arxiv.org/abs/2606.30817
+- year: 2021
+  authors: Petit, L. & Desbiens, A.L.
+  title: "RRT-Rope: A Deterministic Shortening Approach for Fast Near-optimal Path Planning in Large-Scale Uncluttered 3D Environments."
+  venue: 2021 IEEE International Conference on Systems, Man, and Cybernetics (SMC)
+  note: Best Student Paper Award and Finalist for the Best Paper Award
+  links:
+    - name: IEEE Xplore
+      url: https://ieeexplore.ieee.org/document/9659071
+    - name: PDF
+      url: https://arxiv.org/abs/2606.31948
+    - name: Demo
+      url: https://www.louispetit.be/demo/rrt-rope-demo
+    - name: Available in OMPL
+      url: https://www.louispetit.be/projects/rrt-rope
