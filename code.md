@@ -1,5 +1,5 @@
 ---
-title: Open Source
+title: Code
 subtitle: Code and tools released by the SAFiR Lab
 ---
 

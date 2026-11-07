@@ -15,7 +15,7 @@ ongoing:
   - title: Off-road autonomous driving and advanced driver-assistance systems
     image: /assets/projects/images/maverick.png
 completed:
-  - title: "ARENA: Adaptive Risk-aware and Energy-efficient NAvigation for Multi-Objective 3D Infrastructure Inspection with a UAV"
+  - title: "ARENA: Adaptive Risk-aware Navigation for Autonomous Aerial Inspection"
     media: /assets/projects/gif/web/ARENA.gif
     link: https://www.louispetit.be/projects/arena
   - title: Topological Mapping for Traversability-aware Long-range Navigation in Off-road Terrain
@@ -31,5 +31,5 @@ completed:
     media: /assets/projects/gif/web/TAPE.gif
     link: https://www.louispetit.be/projects/tape
   - title: "RRT-Rope: A deterministic shortening approach for fast near-optimal path planning in large-scale uncluttered 3D environments"
-    media: /assets/projects/images/RRT_Rope.jpg
+    media: /assets/projects/gif/web/RRT-Rope.gif
     link: https://www.louispetit.be/projects/rrt-rope

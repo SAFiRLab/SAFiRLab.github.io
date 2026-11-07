@@ -4,15 +4,13 @@
   link: /team/
 - name: Publications
   link: /publications/
-- name: Openings
-  link: /openings/
-- name: Open Source
-  link: /open-source/
+- name: Code
+  link: /code/
 - name: RoboRev'Up
   link: /roborevup/
-- name: Logo
-  link: /logo/
-- name: Give Now
-  link: /give-now/
+- name: Openings
+  link: /openings/
 - name: Contact
   link: /contact/
+- name: Give Now
+  link: /give-now/
