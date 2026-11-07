@@ -1,0 +1,58 @@
+---
+layout: default
+---
+{% for group in site.data.team %}{% for member in group.members %}{% if member.name == page.name %}{% assign photo = member.photo %}{% assign role = member.role %}{% assign year = member.year %}{% endif %}{% endfor %}{% endfor %}
+{% assign about = content | strip %}
+<div class="columns member-profile is-variable is-6">
+  <div class="column is-4-desktop is-5-tablet">
+    {% if photo %}
+    <img class="member-profile-photo" src="{{ photo | relative_url }}" alt="{{ page.name }}">
+    {% endif %}
+  </div>
+  <div class="column">
+    <h1 class="title is-2">{{ page.name }}</h1>
+    {% if role %}<p class="subtitle is-5 member-role">{{ role }}{% if year %} ({{ year }}){% endif %}</p>{% endif %}
+    <ul class="member-contact">
+      {% if page.email %}<li><span class="icon"><i class="fas fa-envelope"></i></span> <a href="mailto:{{ page.email }}">{{ page.email }}</a></li>{% endif %}
+      {% if page.website %}<li><span class="icon"><i class="fas fa-globe"></i></span> <a href="{{ page.website }}" target="_blank" rel="noopener">Website</a></li>{% endif %}
+      {% if page.linkedin %}<li><span class="icon"><i class="fab fa-linkedin"></i></span> <a href="{{ page.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></li>{% endif %}
+    </ul>
+    {% if page.topics and page.topics.size > 0 %}
+    <h2 class="title is-4 section-heading">Research topics</h2>
+    <ul class="member-topics">
+      {% for topic in page.topics %}<li>{{ topic }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+    {% if about != "" %}
+    <h2 class="title is-4 section-heading">About</h2>
+    <div class="content member-about">{{ content }}</div>
+    {% endif %}
+  </div>
+</div>
+
+{% if page.citation_name %}
+<h2 class="title is-4 section-heading">Publications</h2>
+<div class="content pub-list">
+  {% for pub in site.data.publications %}
+  {% if pub.authors contains page.citation_name %}
+  <div class="pub-item">
+    {% if pub.image %}
+    <figure class="pub-figure">
+      <img src="{{ pub.image | relative_url }}" alt="{{ pub.title }}">
+    </figure>
+    {% endif %}
+    <div class="pub-body">
+      <p class="pub-title"><strong>{{ pub.title }}</strong></p>
+      <p class="pub-authors">{{ pub.authors }}</p>
+      <p class="pub-venue">{% if pub.note %}<span class="pub-note">({{ pub.note }})</span> {% endif %}<em>{{ pub.venue }}</em> ({{ pub.year }})</p>
+      {% if pub.links %}
+      <div class="pub-links">
+        {% for link in pub.links %}<a class="button is-small is-safir" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.name }}</a>{% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>
+{% endif %}

@@ -21,9 +21,20 @@ exclude:
 markdown: kramdown
 highlighter: rouge
 
+collections:
+  members:
+    output: true
+    permalink: /team/:name/
+
 defaults:
   - scope:
       path: ""
       type: pages
     values:
       layout: default
+  - scope:
+      path: ""
+      type: members
+    values:
+      layout: member
+      hide_hero: true

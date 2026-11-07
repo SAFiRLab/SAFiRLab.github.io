@@ -3,7 +3,6 @@
     - name: Louis Petit
       role: Professor
       photo: /assets/members/louis_petit.jpg
-      link: https://www.louispetit.be/
 
 - group: PhD Students
   members:
@@ -16,7 +15,6 @@
     - name: Tim Bary
       role: Invited PhD Student
       photo: /assets/members/tim_bary.jpg
-      link: https://www.linkedin.com/in/tim-bary/
     - name: Darren Nguemdjom
       role: PhD Student
       photo: /assets/members/kevin_tchangang.jpeg
@@ -79,4 +77,3 @@
       role: Intern
       year: 2025
       photo: /assets/members/alumni/thomas_guyonvarch.jpg
-      link: https://www.linkedin.com/in/thomas-guyonvarch-a8ab382a8/

@@ -8,7 +8,7 @@ future:
   - title: Infrastructure inspection with autonomous underwater robots
     image: /assets/projects/images/rov.png
   - title: Mapping plants in Canadian lakes using autonomous aquatic robots
-    image: /assets/projects/images/plantes.jpg
+    image: /assets/projects/images/flora-map.jpg
 ongoing:
   - title: Image recognition for the inventory of endangered plants using UAVs
     image: /assets/projects/images/forillon.png

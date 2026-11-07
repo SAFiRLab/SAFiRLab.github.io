@@ -10,15 +10,16 @@ hide_hero: false
 <div class="columns is-multiline is-mobile team-group">
   {% for member in group.members %}
   <div class="column">
-    {% if member.link %}<a class="team-card team-card-link" href="{{ member.link }}" target="_blank" rel="noopener">{% else %}<div class="team-card">{% endif %}
+    {% assign profile = site.members | where: "name", member.name | first %}
+    {% if profile %}<a class="team-card team-card-link" href="{{ profile.url | relative_url }}">{% else %}<div class="team-card">{% endif %}
       {% if member.photo %}
       <img class="member-photo" src="{{ member.photo | relative_url }}" alt="{{ member.name }}">
       {% endif %}
       <div class="team-card-body">
         <p class="team-name">{{ member.name }}</p>
-        <p class="team-role">{% if group.alumni %}{{ member.role }} / {{ member.year }}{% else %}{{ member.role }}{% endif %}</p>
+        <p class="team-role">{% if group.alumni %}{{ member.role }} ({{ member.year }}){% else %}{{ member.role }}{% endif %}</p>
       </div>
-    {% if member.link %}</a>{% else %}</div>{% endif %}
+    {% if profile %}</a>{% else %}</div>{% endif %}
   </div>
   {% endfor %}
 </div>

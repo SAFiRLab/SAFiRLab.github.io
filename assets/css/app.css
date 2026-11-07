@@ -76,7 +76,7 @@ body a {
 .site-hero.hero {
   background-color: var(--safir-navy);
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
   color: #ffffff;
 }
 
@@ -110,7 +110,8 @@ body a {
 }
 
 .button.is-safir:hover,
-.button.is-safir:focus {
+.button.is-safir:focus-visible,
+.button.is-safir[aria-expanded="true"] {
   background-color: var(--safir-yellow);
   border-color: var(--safir-yellow);
   color: var(--safir-navy);
@@ -545,12 +546,124 @@ body a {
 }
 
 .pub-item {
-  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  margin-bottom: 1.75rem;
 }
 
-.pub-item .pub-year {
+.pub-item .pub-figure {
+  flex: 0 0 240px;
+  margin: 0;
+}
+
+.pub-item .pub-figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.pub-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.pub-body p {
+  margin-bottom: 0.25rem;
+  text-align: left;
+}
+
+.pub-authors {
+  color: #4a5568;
+}
+
+.pub-award {
+  margin-top: 0.25rem;
   color: var(--safir-navy);
-  font-weight: 700;
+}
+
+.pub-links {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.pub-links .button {
+  margin: 0 0.4rem 0.4rem 0;
+}
+
+.pub-bibtex {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.pub-bibtex-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.25rem;
+}
+
+.pub-bibtex pre {
+  font-size: 0.85rem;
+  white-space: pre-wrap;
+  margin-top: 0;
+}
+
+.pub-bibtex[hidden] {
+  display: none;
+}
+
+.member-profile-photo {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  object-fit: cover;
+}
+
+.member-role {
+  color: var(--safir-cyan);
+  font-weight: 600;
+}
+
+.member-contact {
+  list-style: none;
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+.member-contact li {
+  margin-bottom: 0.25rem;
+}
+
+.member-topics {
+  list-style: disc;
+  padding-left: 1.25rem;
+}
+
+.member-about {
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .pub-item {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .pub-item .pub-figure {
+    flex: none;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .pub-item .pub-figure img {
+    width: auto;
+    max-width: 100%;
+    max-height: 220px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 1024px) {

@@ -14,6 +14,33 @@ document.addEventListener('DOMContentLoaded', function () {
   var current = 0;
   var groups = {};
 
+  var copyButtons = Array.prototype.slice.call(document.querySelectorAll('[data-copy]'));
+  copyButtons.forEach(function (button) {
+    var label = button.textContent;
+    button.addEventListener('click', function () {
+      var code = document.getElementById(button.getAttribute('data-copy')).textContent;
+      navigator.clipboard.writeText(code).then(function () {
+        button.textContent = 'Copied';
+        setTimeout(function () { button.textContent = label; }, 1500);
+      });
+    });
+  });
+
+  Array.prototype.slice.call(document.querySelectorAll('[data-bibtex-toggle]')).forEach(function (button) {
+    button.addEventListener('click', function () {
+      var group = button.closest('.pub-body');
+      var open = button.getAttribute('aria-expanded') !== 'true';
+      Array.prototype.slice.call(group.querySelectorAll('[data-bibtex-toggle]')).forEach(function (other) {
+        other.setAttribute('aria-expanded', 'false');
+        document.getElementById(other.getAttribute('aria-controls')).hidden = true;
+      });
+      if (open) {
+        button.setAttribute('aria-expanded', 'true');
+        document.getElementById(button.getAttribute('aria-controls')).hidden = false;
+      }
+    });
+  });
+
   function closeLightbox() {
     if (!lightbox) return;
     document.body.removeChild(lightbox);

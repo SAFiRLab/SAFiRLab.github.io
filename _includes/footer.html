@@ -21,4 +21,4 @@
         <p class="has-text-centered footer-copy">&copy; {{ 'now' | date: '%Y' }} SAFiR Lab</p>
     </div>
 </footer>
-<script src="{{ '/assets/js/app.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/app.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>

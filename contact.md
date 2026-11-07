@@ -6,7 +6,7 @@ hero_image: /assets/infrastructure/3IT-wide.jpg
 
 <div class="columns is-multiline">
   <div class="column is-5-desktop is-12-tablet">
-    <a class="team-card team-card-link contact-card" href="https://www.louispetit.be/" target="_blank" rel="noopener">
+    <a class="team-card team-card-link contact-card" href="{{ '/team/louis-petit/' | relative_url }}">
       <img class="member-photo" src="/assets/members/louis_petit.jpg" alt="Louis Petit">
       <div class="team-card-body">
         <p class="team-name">Louis Petit</p>
