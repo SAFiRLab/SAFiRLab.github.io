@@ -23,3 +23,18 @@ hide_hero: false
   {% endfor %}
 </div>
 {% endfor %}
+
+<h2 class="title is-4 section-heading">Group photos</h2>
+<div class="columns is-multiline is-mobile group-photos">
+  {% for photo in site.data.group_photos %}
+  <div class="column is-3-desktop is-4-tablet is-6-mobile group-photo">
+    <figure>
+      <a href="{{ photo.photo | relative_url }}" data-lightbox title="Enlarge">
+        <img src="{{ photo.photo | relative_url }}" alt="SAFiR Lab group photo, {{ photo.label }}">
+      </a>
+      <figcaption>{{ photo.label }}</figcaption>
+    </figure>
+  </div>
+  {% endfor %}
+</div>
+

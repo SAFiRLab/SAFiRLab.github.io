@@ -244,6 +244,22 @@ body a {
   margin-bottom: 1.5rem;
 }
 
+.contact-card {
+  max-width: 220px;
+  margin-bottom: 1.5rem;
+}
+
+.contact-line {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.contact-line .icon {
+  flex-shrink: 0;
+}
+
 .pub-note {
   color: var(--safir-navy);
   font-style: italic;
@@ -338,6 +354,62 @@ body a {
   margin-top: 1.5rem;
   font-size: 0.85rem;
   opacity: 0.8;
+}
+
+.group-photo figure {
+  margin: 0;
+}
+
+.group-photo a {
+  display: block;
+  cursor: zoom-in;
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: rgba(14, 31, 51, 0.92);
+}
+
+.lightbox img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 6px;
+}
+
+.lightbox-close {
+  position: absolute;
+  z-index: 1;
+  top: 1rem;
+  right: 1rem;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--safir-yellow);
+  color: var(--safir-navy);
+  cursor: pointer;
+}
+
+.lightbox-open {
+  overflow: hidden;
+}
+
+.group-photo img {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.group-photo figcaption {
+  margin-top: 0.5rem;
+  font-weight: 700;
+  color: var(--safir-navy);
 }
 
 .team-group > .column {

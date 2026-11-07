@@ -1,19 +1,35 @@
 ---
 title: Contact us
 subtitle: Get in touch with the SAFiR Lab
+hero_image: /assets/infrastructure/3IT-wide.jpg
 ---
 
 <div class="columns is-multiline">
   <div class="column is-5-desktop is-12-tablet">
-    <p><strong>SAFiR Lab</strong><br>
-    Département de génie électrique et de génie informatique<br>
-    Université de Sherbrooke<br>
-    P2-3000, boulevard de l'Université<br>
-    Sherbrooke (Québec) J1K 0A5</p>
+    <a class="team-card team-card-link contact-card" href="https://www.louispetit.be/" target="_blank" rel="noopener">
+      <img class="member-photo" src="/assets/members/louis_petit.jpg" alt="Louis Petit">
+      <div class="team-card-body">
+        <p class="team-name">Louis Petit</p>
+        <p class="team-role">Professor</p>
+      </div>
+    </a>
 
-    <p><span class="icon"><i class="fas fa-map-marker-alt"></i></span> Office P2-3007</p>
-    <p><span class="icon"><i class="fas fa-phone"></i></span> 819 821-8000, ext. 65703</p>
-    <p><span class="icon"><i class="fas fa-envelope"></i></span> <a href="mailto:safir-lab@USherbrooke.ca">safir-lab@USherbrooke.ca</a></p>
+    <div class="contact-line">
+      <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+      <div>P2-3000, boulevard de l'Université<br>Sherbrooke (Québec) J1K 0A5</div>
+    </div>
+    <div class="contact-line">
+      <span class="icon"><i class="fas fa-building"></i></span>
+      <div>Office P2-3007</div>
+    </div>
+    <div class="contact-line">
+      <span class="icon"><i class="fas fa-phone"></i></span>
+      <div>819 821-8000, ext. 65703</div>
+    </div>
+    <div class="contact-line">
+      <span class="icon"><i class="fas fa-envelope"></i></span>
+      <div><a href="mailto:safir-lab@USherbrooke.ca">safir-lab@USherbrooke.ca</a></div>
+    </div>
   </div>
   <div class="column is-7-desktop is-12-tablet">
     <div class="map-embed">
