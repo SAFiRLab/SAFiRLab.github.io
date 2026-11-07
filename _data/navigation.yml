@@ -1,11 +1,9 @@
-- name: Team
-  link: /team/
 - name: Research
   link: /research/
+- name: Team
+  link: /team/
 - name: Publications
   link: /publications/
-- name: Partnerships
-  link: /partnerships/
 - name: Openings
   link: /openings/
 - name: Open Source

@@ -49,6 +49,10 @@ body a {
   max-height: 3rem;
 }
 
+.site-navbar .navbar-logo {
+  margin-right: 0.5rem;
+}
+
 .site-navbar .navbar-brand {
   align-items: center;
 }
@@ -133,9 +137,13 @@ body a {
   margin-bottom: 1.5rem;
 }
 
+.home-intro.home-intro-partners {
+  margin-bottom: 1rem;
+}
+
 .partners.columns {
   margin-top: 0;
-  margin-bottom: -0.75rem;
+  margin-bottom: 2.5rem;
 }
 
 .partners .column {

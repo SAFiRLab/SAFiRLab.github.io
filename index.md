@@ -14,6 +14,7 @@ hero_link_text2: Contact us
   <iframe src="https://www.youtube-nocookie.com/embed/S3yc67EqrLE" title="SAFiR Lab" loading="lazy" allowfullscreen></iframe>
 </div>
 
+<!-- 
 <div class="columns is-multiline home-cards">
   <div class="column is-4-desktop is-12-tablet">
     <div class="home-card">
@@ -38,11 +39,11 @@ hero_link_text2: Contact us
   </div>
 </div>
 
-<div class="map-embed">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.10030396678485!2d-71.94284737015059!3d45.375114531087185!2m3!1f342.07171314741106!2f57.82002048525859!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0xa25e4ba420ec51d5%3A0x755f6ea2ca53eae4!2sSAFiR%20-%20Sherbrooke%20Autonomous%20Field%20Robotics%20Lab!5e1!3m2!1sen!2sca!4v1757531552873!5m2!1sen!2sca" title="SAFiR Lab location" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-
 <h2 class="title is-4 section-heading">Our Partners</h2>
+
+-->
+
+<p class="home-intro home-intro-partners">We work closely with our partners to design innovative robotic solutions and generate tangible impact, both in the field and for society. Contact us to explore partnership opportunities.</p>
 
 <div class="columns is-multiline is-vcentered is-mobile partners">
   {% for partner in site.data.partners %}
@@ -52,3 +53,6 @@ hero_link_text2: Contact us
   {% endfor %}
 </div>
 
+<div class="map-embed">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.10030396678485!2d-71.94284737015059!3d45.375114531087185!2m3!1f342.07171314741106!2f57.82002048525859!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0xa25e4ba420ec51d5%3A0x755f6ea2ca53eae4!2sSAFiR%20-%20Sherbrooke%20Autonomous%20Field%20Robotics%20Lab!5e1!3m2!1sen!2sca!4v1757531552873!5m2!1sen!2sca" title="SAFiR Lab location" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>

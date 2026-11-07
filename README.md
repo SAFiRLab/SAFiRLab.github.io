@@ -3,7 +3,7 @@ Official github website for the SAFiRLab
 
 ## Preview the website locally
 
-The site is built with Jekyll. On macOS, the system Ruby is too old, so install a recent Ruby with Homebrew first:
+The site is built with Jekyll. On macOS, you might need to install a recent Ruby with Homebrew first:
 
 ```sh
 brew install ruby

@@ -1,7 +1,7 @@
 ---
 title: Research
 subtitle: Enabling intelligent robots to better understand their environment
-hero_image: /assets/projects/images/topological.png
+hero_image: /assets/robots/warthog_wide.jpeg
 hero_link: /publications/
 hero_link_text: Publications
 ---
