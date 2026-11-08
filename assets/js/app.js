@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var gallery = [];
   var current = 0;
   var groups = {};
+  var trigger = null;
 
   var copyButtons = Array.prototype.slice.call(document.querySelectorAll('[data-copy]'));
   copyButtons.forEach(function (button) {
@@ -46,11 +47,15 @@ document.addEventListener('DOMContentLoaded', function () {
     document.body.removeChild(lightbox);
     document.body.classList.remove('lightbox-open');
     lightbox = null;
+    if (trigger) trigger.focus();
+    trigger = null;
   }
 
   function captionFor(link) {
     if (link.dataset.caption) return link.dataset.caption;
-    return link.closest('figure').querySelector('figcaption').textContent;
+    var figure = link.closest('figure');
+    var caption = figure && figure.querySelector('figcaption');
+    return caption ? caption.textContent : link.querySelector('img').alt;
   }
 
   function showImage(index) {
@@ -62,10 +67,14 @@ document.addEventListener('DOMContentLoaded', function () {
     lightbox.querySelector('.lightbox-caption').textContent = captionFor(gallery[current]);
   }
 
-  function openLightbox(group, index) {
+  function openLightbox(group, index, opener) {
     gallery = groups[group];
+    trigger = opener;
     lightbox = document.createElement('div');
     lightbox.className = 'lightbox';
+    lightbox.setAttribute('role', 'dialog');
+    lightbox.setAttribute('aria-modal', 'true');
+    lightbox.setAttribute('aria-label', 'Image viewer');
     lightbox.innerHTML =
       '<button type="button" class="lightbox-close" aria-label="Close">' +
       '<span class="icon"><i class="fas fa-times"></i></span></button>' +
@@ -93,14 +102,30 @@ document.addEventListener('DOMContentLoaded', function () {
     groups[group].push(link);
     link.addEventListener('click', function (event) {
       event.preventDefault();
-      openLightbox(group, groups[group].indexOf(link));
+      openLightbox(group, groups[group].indexOf(link), link);
     });
   });
 
   document.addEventListener('keydown', function (event) {
     if (!lightbox) return;
-    if (event.key === 'Escape') closeLightbox();
-    if (event.key === 'ArrowLeft') showImage(current - 1);
-    if (event.key === 'ArrowRight') showImage(current + 1);
+    if (event.key === 'Escape') return closeLightbox();
+    if (event.key === 'ArrowLeft') return showImage(current - 1);
+    if (event.key === 'ArrowRight') return showImage(current + 1);
+    if (event.key === 'Tab') {
+      var controls = lightbox.querySelectorAll('button');
+      var first = controls[0];
+      var last = controls[controls.length - 1];
+      var active = document.activeElement;
+      if (!lightbox.contains(active)) {
+        event.preventDefault();
+        first.focus();
+      } else if (event.shiftKey && active === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && active === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    }
   });
 });

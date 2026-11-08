@@ -31,4 +31,4 @@ Beyond technical skills, we value curiosity, initiative, scientific rigor, and a
 
 <h2 class="title is-4 section-heading">Open projects</h2>
 
-<iframe src="https://repeated-phone-4b0.notion.site/ebd//3a194d828268806d82f8ec67448185a8?v=3a194d828268801f8299000c0eba52be" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://repeated-phone-4b0.notion.site/ebd//3a194d828268806d82f8ec67448185a8?v=3a194d828268801f8299000c0eba52be" title="Open student projects (Notion)" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
