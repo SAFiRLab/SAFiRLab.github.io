@@ -17,19 +17,19 @@ ongoing:
 completed:
   - title: "ARENA: Adaptive Risk-aware Navigation for Autonomous Aerial Inspection"
     media: /assets/projects/gif/web/ARENA.gif
-    link: https://www.louispetit.be/projects/arena
+    page: /research/arena/
   - title: Topological Mapping for Traversability-aware Long-range Navigation in Off-road Terrain
     media: /assets/projects/gif/web/topo.gif
-    link: https://www.louispetit.be/projects/topological-mapping
+    page: /research/topological-mapping/
   - title: Active Sampling, Modeling and Estimation in Aquatic Environments
     media: /assets/projects/gif/web/blueboat.gif
-    link: https://www.louispetit.be/projects/active-sampling
+    page: /research/active-sampling/
   - title: "MOAR Planner: Multi-Objective and Adaptive Risk-Aware Path Planning for Infrastructure Inspection with a UAV"
     media: /assets/projects/gif/web/MOAR.gif
-    link: https://www.louispetit.be/projects/MOAR
+    page: /research/moar/
   - title: "TAPE: Tether-Aware Path Planning for Autonomous Exploration of Unknown 3D Cavities using a Tangle-compatible Tethered Aerial Robot"
     media: /assets/projects/gif/web/TAPE.gif
-    link: https://www.louispetit.be/projects/tape
+    page: /research/tape/
   - title: "RRT-Rope: A deterministic shortening approach for fast near-optimal path planning in large-scale uncluttered 3D environments"
     media: /assets/projects/gif/web/RRT-Rope.gif
-    link: https://www.louispetit.be/projects/rrt-rope
+    page: /research/rrt-rope/

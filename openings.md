@@ -1,13 +1,16 @@
 ---
 title: Openings
 subtitle: Join the SAFiR Lab
+hero_image: /assets/photos/test_husky.jpeg
 hero_link: https://repeated-phone-4b0.notion.site/Student-Project-Openings-39594d828268802bbb92e1421cc58a11
 hero_link_text: See the project directory
 hero_link2: https://forms.gle/2qa9paZbXvgTFdw78
 hero_link_text2: Send an unsolicited application
 ---
 
-We are recruiting interns, MSc, PhD and post-doctoral students with a passion for field robotics and machine learning, to work on high-impact applied projects. We post job openings from time to time and accept unsolicited applications.
+<div class="body-text" markdown="1">
+
+<p class="home-intro">We often recruit interns, MSc, PhD and postdoctoral students with a passion for field robotics and machine learning, to work on high-impact applied projects. We post job openings from time to time and accept unsolicited applications.</p>
 
 Successful candidates typically possess several of the following qualifications:
 
@@ -24,9 +27,8 @@ Successful candidates typically possess several of the following qualifications:
 
 Beyond technical skills, we value curiosity, initiative, scientific rigor, and a genuine enthusiasm for advancing the state of the art in autonomous robotics.
 
+</div>
+
 <h2 class="title is-4 section-heading">Open projects</h2>
 
-<p>The current student project openings are listed in our Notion project directory.</p>
-
-<p><a class="button is-safir" href="https://repeated-phone-4b0.notion.site/Student-Project-Openings-39594d828268802bbb92e1421cc58a11" target="_blank" rel="noopener">See the project directory</a>
-<a class="button is-safir" href="https://forms.gle/2qa9paZbXvgTFdw78" target="_blank" rel="noopener">Send an unsolicited application</a></p>
+<iframe src="https://repeated-phone-4b0.notion.site/ebd//3a194d828268806d82f8ec67448185a8?v=3a194d828268801f8299000c0eba52be" width="100%" height="600" frameborder="0" allowfullscreen></iframe>

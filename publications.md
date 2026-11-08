@@ -37,16 +37,16 @@ hero_image: /assets/photos/ICRA_talk.JPG
       {% endif %}
       {% if pub.bibtex %}
       <div class="pub-bibtex" id="bibtex-{{ forloop.index }}" hidden>
-        <div class="pub-bibtex-header">
-          <button type="button" class="button is-small is-safir pub-copy" data-copy="bibtex-{{ forloop.index }}-text">Copy</button>
+        <div class="pub-code">
+          <button type="button" class="button is-small is-safir pub-copy" data-copy>Copy</button>
+          <pre><code>{{ pub.bibtex }}</code></pre>
         </div>
-        <pre id="bibtex-{{ forloop.index }}-text"><code>{{ pub.bibtex }}</code></pre>
       </div>
       <div class="pub-bibtex" id="plain-{{ forloop.index }}" hidden>
-        <div class="pub-bibtex-header">
-          <button type="button" class="button is-small is-safir pub-copy" data-copy="plain-{{ forloop.index }}-text">Copy</button>
+        <div class="pub-code">
+          <button type="button" class="button is-small is-safir pub-copy" data-copy>Copy</button>
+          <pre>{{ pub.authors }} {{ pub.title }} {% if pub.note %}({{ pub.note }}) {% endif %}{{ pub.venue }}, {{ pub.year }}.</pre>
         </div>
-        <pre id="plain-{{ forloop.index }}-text">{{ pub.authors }} {{ pub.title }} {% if pub.note %}({{ pub.note }}) {% endif %}{{ pub.venue }}, {{ pub.year }}.</pre>
       </div>
       {% endif %}
     </div>

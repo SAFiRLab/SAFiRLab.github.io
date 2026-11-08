@@ -48,7 +48,7 @@
       note = {Under review}
     }
   image: /assets/papers/web/aqua_sampling.jpg
-- year: 2026
+- year: 2027
   authors: Poissant, D., Desbiens, A.L., Ferland, F. & Petit, L.
   title: "ARENA: Adaptive Risk-aware Navigation for Autonomous Aerial Inspection."
   venue: IEEE Robotics and Automation Letters (RA-L)
@@ -83,7 +83,7 @@
   image: /assets/papers/web/DDS-Mamba-YOLO.png
   links:
     - name: PDF
-      url: https://www.sciencedirect.com/science/article/pii/S2772375526006490
+      url: https://www.semanticscholar.org/paper/DDS-Mamba-YOLO%3A-Improved-Adaptive-State-Space-for-Zhu-Bary/43dcd66104dbd274533cbc125b85dad22f6fe0c1
 - year: 2025
   authors: Tremblay, J., Alhosh, J., Petit, L., Lotfi, F., Landauro, L. & Meger, D.
   title: "Topological mapping for traversability-aware long-range navigation in off-road terrain."
@@ -176,7 +176,7 @@
     - name: Demo
       url: https://www.louispetit.be/demo/rrt-rope-demo
     - name: Code
-      url: https://github.com/lopetit/rrt-rope
+      url: https://github.com/SAFiRLab/rrt-rope
     - name: OMPL
       url: https://ompl.kavrakilab.org/classompl_1_1geometric_1_1PathSimplifier.html#a769875a6b05a77835ff0eaa2e948a221
     - name: Video

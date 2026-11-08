@@ -25,6 +25,9 @@ collections:
   members:
     output: true
     permalink: /team/:name/
+  projects:
+    output: true
+    permalink: /research/:name/
 
 defaults:
   - scope:
@@ -38,3 +41,9 @@ defaults:
     values:
       layout: member
       hide_hero: true
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+      hero_plain: true

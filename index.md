@@ -1,7 +1,7 @@
 ---
 title: SAFiR Lab
 subtitle: Sherbrooke Autonomous Field Robotics Lab
-hero_image: /assets/group/SAFiR_group_wide_2026.jpg
+hero_image: /assets/group/SAFiR_group_home_2026.jpg
 hero_link: /research/
 hero_link_text: Our research
 hero_link2: /contact/
@@ -54,7 +54,7 @@ hero_link_text2: Contact us
 </div>
 
 <div class="map-embed">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9272994.25304004!2d-82.01346578447365!3d45.13200246403759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb64d00549e1a37%3A0x3d03d979f28f3f72!2sSAFiR%20-%20Sherbrooke%20Autonomous%20Field%20Robotics%20Lab!5e0!3m2!1sen!2sca!4v1757532019477!5m2!1sen!2sca" title="SAFiR Lab location" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9272994.25304004!2d-82.01346578447365!3d45.13200246403759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb64d00549e1a37%3A0x3d03d979f28f3f72!2sSAFiR%20-%20Sherbrooke%20Autonomous%20Field%20Robotics%20Lab!5e1!3m2!1sen!2sca!4v1757532019477!5m2!1sen!2sca" title="SAFiR Lab location" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
 <p class="home-intro home-intro-logo">Our logo is available in PNG format. Choose the version that matches your background.</p>

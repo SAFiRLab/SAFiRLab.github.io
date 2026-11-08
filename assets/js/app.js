@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
   copyButtons.forEach(function (button) {
     var label = button.textContent;
     button.addEventListener('click', function () {
-      var code = document.getElementById(button.getAttribute('data-copy')).textContent;
+      var code = button.closest('.pub-code').querySelector('pre').textContent;
       navigator.clipboard.writeText(code).then(function () {
         button.textContent = 'Copied';
         setTimeout(function () { button.textContent = label; }, 1500);

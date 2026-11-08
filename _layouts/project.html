@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="project-page">
+{{ content }}
+{% if page.bibtex %}
+<div class="project-bibtex">
+<h2>BibTeX</h2>
+<div class="pub-code">
+<button type="button" class="button is-small is-safir pub-copy" data-copy>Copy</button>
+<pre><code>{{ page.bibtex | escape }}</code></pre>
+</div>
+</div>
+{% endif %}
+</div>

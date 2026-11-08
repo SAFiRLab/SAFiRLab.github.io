@@ -26,7 +26,7 @@ hero_link_text2: Code
 <div class="columns is-multiline is-mobile project-grid">
   {% for project in site.data.projects.completed %}
   <div class="column is-6-mobile is-4-tablet is-3-desktop">
-    <a class="card project-card project-card-link" href="{{ project.link }}" target="_blank" rel="noopener">
+    <a class="card project-card project-card-link" href="{{ project.page | relative_url }}">
       <div class="card-image">
         <figure class="image is-3by2">
           <img src="{{ project.media | relative_url }}" alt="{{ project.title }}">
@@ -72,3 +72,4 @@ hero_link_text2: Code
   </div>
   {% endfor %}
 </div>
+
