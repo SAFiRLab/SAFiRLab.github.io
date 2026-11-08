@@ -1,0 +1,183 @@
+- year: 2027
+  authors: Bonilla, W., Boisvert, M., Poissant, D., Meger, D. & Petit, L.
+  title: "FLINT: Fast Lightweight Inference for Traversability."
+  venue: 2027 IEEE International Conference on Robotics and Automation (ICRA)
+  note: under review
+  bibtex: |
+    @inproceedings{bonilla2027flint,
+      author = {Bonilla, William and Boisvert, Maxime and Poissant, David-Alexandre and Meger, David and Petit, Louis},
+      title = {FLINT: Fast Lightweight Inference for Traversability},
+      booktitle = {2027 IEEE International Conference on Robotics and Automation (ICRA)},
+      year = {2027},
+      note = {Under review},
+      url = {https://arxiv.org/abs/2609.26857}
+    }
+  image: /assets/papers/web/FLINT.jpg
+  links:
+    - name: PDF
+      url: https://arxiv.org/abs/2609.26857
+- year: 2027
+  authors: Bary, T., Macq, B. & Petit, L.
+  title: "No Need for Learning to Defer? A Training Free Deferral Framework to Multiple Experts through Conformal Prediction."
+  venue: 2027 AAAI Conference on Artificial Intelligence
+  note: under review
+  bibtex: |
+    @inproceedings{bary2027deferral,
+      author = {Bary, Tim and Macq, Beno{\^\i}t and Petit, Louis},
+      title = {No Need for Learning to Defer? A Training Free Deferral Framework to Multiple Experts through Conformal Prediction},
+      booktitle = {2027 AAAI Conference on Artificial Intelligence},
+      year = {2027},
+      note = {Under review},
+      url = {https://arxiv.org/abs/2509.12573}
+    }
+  image: /assets/papers/web/Training_free_deferral.png
+  links:
+    - name: PDF
+      url: https://arxiv.org/abs/2509.12573
+- year: 2027
+  authors: Alhosh, J., Tremblay, J., Wiltzer, H., Bodzay, E., Petit, L. & Meger, D.
+  title: "Learning to Sample: A Reinforcement Learning Framework for Aquatic Environmental Mapping."
+  venue: IEEE Robotics and Automation Letters (RA-L)
+  note: under review
+  bibtex: |
+    @article{alhosh2027sample,
+      author = {Alhosh, Julie and Tremblay, Jean-Fran{\c{c}}ois and Wiltzer, Harley and Bodzay, Ellen and Petit, Louis and Meger, David},
+      title = {Learning to Sample: A Reinforcement Learning Framework for Aquatic Environmental Mapping},
+      journal = {IEEE Robotics and Automation Letters (RA-L)},
+      year = {2027},
+      note = {Under review}
+    }
+  image: /assets/papers/web/aqua_sampling.jpg
+- year: 2027
+  authors: Poissant, D., Desbiens, A.L., Ferland, F. & Petit, L.
+  title: "ARENA: Adaptive Risk-aware Navigation for Autonomous Aerial Inspection."
+  venue: IEEE Robotics and Automation Letters (RA-L)
+  note: under review
+  bibtex: |
+    @article{poissant2027arena,
+      author = {Poissant, David-Alexandre and Desbiens, Alexis Lussier and Ferland, Fran{\c{c}}ois and Petit, Louis},
+      title = {ARENA: Adaptive Risk-aware Navigation for Autonomous Aerial Inspection},
+      journal = {IEEE Robotics and Automation Letters (RA-L)},
+      year = {2027},
+      note = {Under review},
+      url = {https://arxiv.org/abs/2502.19401}
+    }
+  image: /assets/papers/web/ARENA.png
+  links:
+    - name: PDF
+      url: https://arxiv.org/abs/2502.19401
+    - name: Code
+      url: https://github.com/SAFiRLab/ARENA
+- year: 2026
+  authors: Zhu, J., Bary, T., Petit, L. & Sun, S.
+  title: "DDS-Mamba-YOLO: Improved adaptive state-space modeling for tomato fruit and leaf disease detection."
+  venue: Smart Agricultural Technology
+  bibtex: |
+    @article{zhu2026dds,
+      author = {Zhu, Jiajun and Bary, Tim and Petit, Louis and Sun, Shangpeng},
+      title = {DDS-Mamba-YOLO: Improved adaptive state-space modeling for tomato fruit and leaf disease detection},
+      journal = {Smart Agricultural Technology},
+      year = {2026},
+      url = {https://www.sciencedirect.com/science/article/pii/S2772375526006490}
+    }
+  image: /assets/papers/web/DDS-Mamba-YOLO.png
+  links:
+    - name: PDF
+      url: https://www.semanticscholar.org/paper/DDS-Mamba-YOLO%3A-Improved-Adaptive-State-Space-for-Zhu-Bary/43dcd66104dbd274533cbc125b85dad22f6fe0c1
+- year: 2025
+  authors: Tremblay, J., Alhosh, J., Petit, L., Lotfi, F., Landauro, L. & Meger, D.
+  title: "Topological mapping for traversability-aware long-range navigation in off-road terrain."
+  venue: 2025 IEEE International Conference on Robotics and Automation (ICRA)
+  bibtex: |
+    @inproceedings{tremblay2025topological,
+      author = {Tremblay, Jean-Fran{\c{c}}ois and Alhosh, Julie and Petit, Louis and Lotfi, Faraz and Landauro, Lara and Meger, David},
+      title = {Topological mapping for traversability-aware long-range navigation in off-road terrain},
+      booktitle = {2025 IEEE International Conference on Robotics and Automation (ICRA)},
+      year = {2025},
+      url = {https://arxiv.org/abs/2410.01925}
+    }
+  image: /assets/papers/web/topological.png
+  links:
+    - name: PDF
+      url: https://arxiv.org/abs/2410.01925
+    - name: Code
+      url: https://github.com/jefft255/trav_aware_topological_mapping
+- year: 2024
+  authors: Petit, L. & Desbiens, A.L.
+  title: "MOAR Planner: Multi-Objective and Adaptive Risk-Aware Path Planning for Infrastructure Inspection with a UAV."
+  venue: 2024 IEEE International Conference on Robotics and Automation (ICRA)
+  bibtex: |
+    @inproceedings{petit2024moar,
+      author = {Petit, Louis and Desbiens, Alexis Lussier},
+      title = {MOAR Planner: Multi-Objective and Adaptive Risk-Aware Path Planning for Infrastructure Inspection with a UAV},
+      booktitle = {2024 IEEE International Conference on Robotics and Automation (ICRA)},
+      year = {2024},
+      url = {https://arxiv.org/abs/2606.30575}
+    }
+  image: /assets/papers/web/MOAR.png
+  links:
+    - name: PDF
+      url: https://arxiv.org/abs/2606.30575
+    - name: Demo
+      url: https://www.louispetit.be/demo/moar-demo
+    - name: Video
+      url: https://www.youtube.com/watch?v=tsSP4-WjUH8
+- year: 2023
+  authors: Petit, L.
+  title: "Enabling Efficient Autonomous Exploration of Unknown Underground Mining Stopes using a Tethered Aerial Robot"
+  venue: PhD thesis, Université de Sherbrooke
+  bibtex: |
+    @phdthesis{petit2023phd,
+      author = {Petit, Louis},
+      title = {Enabling Efficient Autonomous Exploration of Unknown Underground Mining Stopes using a Tethered Aerial Robot},
+      school = {Universit{\'e} de Sherbrooke},
+      year = {2023},
+      url = {https://savoirs.usherbrooke.ca/handle/11143/20205}
+    }
+  image: /assets/papers/web/PetitPhD.jpg
+  links:
+    - name: PDF
+      url: https://savoirs.usherbrooke.ca/handle/11143/20205
+- year: 2022
+  authors: Petit, L. & Desbiens, A.L.
+  title: "TAPE: Tether-Aware Path Planning for Autonomous Exploration of Unknown 3D Cavities Using a Tangle-Compatible Tethered Aerial Robot."
+  venue: IEEE Robotics and Automation Letters (RA-L)
+  bibtex: |
+    @article{petit2022tape,
+      author = {Petit, Louis and Desbiens, Alexis Lussier},
+      title = {TAPE: Tether-Aware Path Planning for Autonomous Exploration of Unknown 3D Cavities Using a Tangle-Compatible Tethered Aerial Robot},
+      journal = {IEEE Robotics and Automation Letters (RA-L)},
+      year = {2022},
+      url = {https://arxiv.org/abs/2606.30817}
+    }
+  image: /assets/papers/web/TAPE.png
+  links:
+    - name: PDF
+      url: https://arxiv.org/abs/2606.30817
+    - name: Video
+      url: https://www.youtube.com/watch?v=pin22RmgD0k
+- year: 2021
+  authors: Petit, L. & Desbiens, A.L.
+  title: "RRT-Rope: A Deterministic Shortening Approach for Fast Near-optimal Path Planning in Large-Scale Uncluttered 3D Environments."
+  venue: 2021 IEEE International Conference on Systems, Man, and Cybernetics (SMC)
+  award: Best Student Paper Award and Finalist for the Best Paper Award
+  bibtex: |
+    @inproceedings{petit2021rrtrope,
+      author = {Petit, Louis and Desbiens, Alexis Lussier},
+      title = {RRT-Rope: A Deterministic Shortening Approach for Fast Near-optimal Path Planning in Large-Scale Uncluttered 3D Environments},
+      booktitle = {2021 IEEE International Conference on Systems, Man, and Cybernetics (SMC)},
+      year = {2021},
+      url = {https://arxiv.org/abs/2606.31948}
+    }
+  image: /assets/papers/web/RRT_Rope.png
+  links:
+    - name: PDF
+      url: https://arxiv.org/abs/2606.31948
+    - name: Demo
+      url: https://www.louispetit.be/demo/rrt-rope-demo
+    - name: Code
+      url: https://github.com/SAFiRLab/rrt-rope
+    - name: OMPL
+      url: https://ompl.kavrakilab.org/classompl_1_1geometric_1_1PathSimplifier.html#a769875a6b05a77835ff0eaa2e948a221
+    - name: Video
+      url: https://www.youtube.com/watch?v=kB8-4TFNUO0

@@ -1,0 +1,24 @@
+- name: Parks Canada
+  logo: /assets/logos/partners/Parks_Canada.png
+  link: https://parks.canada.ca/
+- name: Ministère de l'Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs
+  logo: /assets/logos/partners/MELCCFP.png
+  link: https://www.environnement.gouv.qc.ca/
+- name: BRP
+  logo: /assets/logos/partners/BRP.png
+  link: https://www.brp.com/
+- name: CM Labs
+  logo: /assets/logos/partners/cm-labs.png
+  link: https://www.cm-labs.com/
+- name: NGC Aerospace
+  logo: /assets/logos/partners/NGC.png
+  link: https://ngcaerospace.com/
+- name: Tessellate Robotics
+  logo: /assets/logos/partners/Tessellate.jpeg
+  link: https://www.tessellate-robotics.com/
+- name: ARA
+  logo: /assets/logos/partners/ARA.png
+  link: https://www.ara-uas.com/
+- name: Moment Factory
+  logo: /assets/logos/partners/Moment_Factory.png
+  link: https://momentfactory.com/

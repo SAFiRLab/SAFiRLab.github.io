@@ -1,0 +1,79 @@
+- group: Faculty
+  members:
+    - name: Louis Petit
+      role: Professor
+      photo: /assets/members/louis_petit.jpg
+
+- group: PhD Students
+  members:
+    - name: William Bonilla
+      role: PhD Student
+      photo: /assets/members/william_bonilla.jpeg
+    - name: David-Alexandre Poissant
+      role: PhD Student
+      photo: /assets/members/david_alexandre.jpeg
+    - name: Tim Bary
+      role: Invited PhD Student
+      photo: /assets/members/tim_bary.jpg
+    - name: Darren Nguemdjom
+      role: PhD Student
+      photo: /assets/members/kevin_tchangang.jpeg
+    - name: Ahmed El Dawy
+      role: PhD Student
+      photo: /assets/members/people.jpg
+    - name: Ibrahim Abdellatif
+      role: PhD Student
+      photo: /assets/members/people.jpg
+
+- group: Master's Students
+  members:
+    - name: Édouard Moffet
+      role: Master's Student
+      photo: /assets/members/edouard_moffet.jpg
+    - name: Nicolaï Boudjack
+      role: Master's Student
+      photo: /assets/members/nicolai_boudjack.jpg
+    - name: Ethan Beaudoin
+      role: Master's Student
+      photo: /assets/members/people.jpg
+    - name: Guillaume Dostie
+      role: Master's Student
+      photo: /assets/members/people.jpg
+    - name: Aryel Morin-Mercier
+      role: Master's Student
+      photo: /assets/members/people.jpg
+    - name: Alex Miville Dechêne
+      role: Master's Student
+      photo: /assets/members/people.jpg
+
+- group: Alumni
+  alumni: true
+  members:
+    - name: Antoine Costa
+      role: Intern
+      year: 2026
+      photo: /assets/members/antoine_costa.jpg
+    - name: Ali Sher Haidari
+      role: Intern
+      year: 2026
+      photo: /assets/members/people.jpg
+    - name: Mohamed Abuseini
+      role: Intern
+      year: 2026
+      photo: /assets/members/alumni/mohamed_abuseini.jpg
+    - name: Nawres Ghannem
+      role: Intern
+      year: 2026
+      photo: /assets/members/alumni/nawres_ghannem.png
+    - name: Jiajun Zhu
+      role: Intern
+      year: 2026
+      photo: /assets/members/alumni/jiajun_zhu.jpg
+    - name: Édouard Moffet
+      role: Intern
+      year: 2025
+      photo: /assets/members/edouard_moffet.jpg
+    - name: Thomas Guyonvarch
+      role: Intern
+      year: 2025
+      photo: /assets/members/alumni/thomas_guyonvarch.jpg

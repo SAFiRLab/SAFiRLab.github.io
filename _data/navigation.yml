@@ -1,0 +1,16 @@
+- name: Research
+  link: /research/
+- name: Team
+  link: /team/
+- name: Publications
+  link: /publications/
+- name: Code
+  link: /code/
+- name: RoboRev'Up
+  link: /roborevup/
+- name: Openings
+  link: /openings/
+- name: Contact
+  link: /contact/
+- name: Give Now
+  link: /give-now/

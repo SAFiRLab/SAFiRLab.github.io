@@ -1,0 +1,51 @@
+title: SAFiR Lab
+tagline: Autonomous field robotics
+description: >
+  The Sherbrooke Autonomous Field Robotics Lab develops perception, mapping, planning, decision-making and control for aerial, terrestrial and aquatic robots in real and complex environments.
+email: safir-lab@USherbrooke.ca
+baseurl: ""
+url: "https://safirlab.github.io"
+permalink: pretty
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - Dockerfile
+  - docker-compose.yml
+
+markdown: kramdown
+highlighter: rouge
+
+collections:
+  members:
+    output: true
+    permalink: /team/:name/
+  projects:
+    output: true
+    permalink: /research/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: members
+    values:
+      layout: member
+      hide_hero: true
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+      hero_plain: true

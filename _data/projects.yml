@@ -1,0 +1,35 @@
+future:
+  - title: Automated detection of salmon using drones and underwater cameras
+    image: /assets/projects/images/bonaventure.jpeg
+  - title: GNSS-denied navigation for aerial robots
+    image: /assets/projects/images/drone.jpg
+  - title: Active mapping for heterogeneous multi-robot systems
+    image: /assets/projects/images/mrs.png
+  - title: Infrastructure inspection with autonomous underwater robots
+    image: /assets/projects/images/rov.png
+  - title: Mapping plants in Canadian lakes using autonomous aquatic robots
+    image: /assets/projects/images/flora-map.jpg
+ongoing:
+  - title: Image recognition for the inventory of endangered plants using UAVs
+    image: /assets/projects/images/forillon.png
+  - title: Off-road autonomous driving and advanced driver-assistance systems
+    image: /assets/projects/images/maverick.png
+completed:
+  - title: "ARENA: Adaptive Risk-aware Navigation for Autonomous Aerial Inspection"
+    media: /assets/projects/gif/web/ARENA.gif
+    page: /research/arena/
+  - title: Topological Mapping for Traversability-aware Long-range Navigation in Off-road Terrain
+    media: /assets/projects/gif/web/topo.gif
+    page: /research/topological-mapping/
+  - title: Active Sampling, Modeling and Estimation in Aquatic Environments
+    media: /assets/projects/gif/web/blueboat.gif
+    page: /research/active-sampling/
+  - title: "MOAR Planner: Multi-Objective and Adaptive Risk-Aware Path Planning for Infrastructure Inspection with a UAV"
+    media: /assets/projects/gif/web/MOAR.gif
+    page: /research/moar/
+  - title: "TAPE: Tether-Aware Path Planning for Autonomous Exploration of Unknown 3D Cavities using a Tangle-compatible Tethered Aerial Robot"
+    media: /assets/projects/gif/web/TAPE.gif
+    page: /research/tape/
+  - title: "RRT-Rope: A deterministic shortening approach for fast near-optimal path planning in large-scale uncluttered 3D environments"
+    media: /assets/projects/gif/web/RRT-Rope.gif
+    page: /research/rrt-rope/

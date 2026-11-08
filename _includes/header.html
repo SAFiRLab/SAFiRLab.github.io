@@ -1,0 +1,22 @@
+<nav class="navbar is-primary site-navbar" role="navigation" aria-label="main navigation">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="{{ '/' | relative_url }}" class="navbar-item navbar-logo" aria-label="SAFiR Lab home">
+                <img class="logo-white" src="{{ '/assets/logos/SAFiR/SAFiR_logo/white/small/SAFiR_white_horizontal_small.png' | relative_url }}" alt="SAFiR Lab">
+                <img class="logo-black" src="{{ '/assets/logos/SAFiR/SAFiR_logo/black/small/SAFiR_black_horizontal_small.png' | relative_url }}" alt="" aria-hidden="true">
+            </a>
+            <button type="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" aria-controls="navMenu" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </button>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+                {% for item in site.data.navigation %}
+                <a href="{{ item.link | relative_url }}" class="navbar-item {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</nav>
