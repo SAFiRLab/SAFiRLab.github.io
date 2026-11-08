@@ -1,0 +1,9 @@
+services:
+  site:
+    build: .
+    ports:
+      # Bound to localhost only, so the preview isn't reachable from the network
+      - "127.0.0.1:4000:4000"
+      - "127.0.0.1:35729:35729"
+    volumes:
+      - .:/site

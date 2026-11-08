@@ -11,7 +11,7 @@ hero_link_text2: Contact us
 <p class="home-intro">The SAFiR Lab is an autonomous field robotics research group that develops innovative strategies in perception, mapping, decision-making, planning and control to improve the autonomy of aerial, terrestrial and aquatic robots in real and complex environments.</p>
 
 <div class="video-embed">
-  <iframe src="https://www.youtube-nocookie.com/embed/S3yc67EqrLE" title="SAFiR Lab" loading="lazy" allowfullscreen></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/S3yc67EqrLE" title="SAFiR Lab" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 <!-- 

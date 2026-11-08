@@ -44,12 +44,12 @@ The idea originates from an autonomous UAV project designed to inspect power lin
 <div class="columns is-centered is-multiline is-mobile project-videos">
   <div class="column is-6-desktop is-6-tablet is-12-mobile">
     <div class="video-embed">
-      <iframe src="https://www.youtube-nocookie.com/embed/OLyQJHhfFB0" title="MOAR Planner video 1" loading="lazy" allowfullscreen></iframe>
+      <iframe src="https://www.youtube-nocookie.com/embed/OLyQJHhfFB0" title="MOAR Planner video 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </div>
   <div class="column is-6-desktop is-6-tablet is-12-mobile">
     <div class="video-embed">
-      <iframe src="https://www.youtube-nocookie.com/embed/tsSP4-WjUH8" title="MOAR Planner video 2" loading="lazy" allowfullscreen></iframe>
+      <iframe src="https://www.youtube-nocookie.com/embed/tsSP4-WjUH8" title="MOAR Planner video 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </div>
 </div>

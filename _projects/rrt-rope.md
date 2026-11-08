@@ -48,12 +48,12 @@ The idea comes from an autonomous drone project designed to map underground mini
 <div class="columns is-centered is-multiline is-mobile project-videos">
   <div class="column is-6-desktop is-6-tablet is-12-mobile">
     <div class="video-embed">
-      <iframe src="https://www.youtube-nocookie.com/embed/kB8-4TFNUO0" title="RRT-Rope video 1: paper summary" loading="lazy" allowfullscreen></iframe>
+      <iframe src="https://www.youtube-nocookie.com/embed/kB8-4TFNUO0" title="RRT-Rope video 1: paper summary" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </div>
   <div class="column is-6-desktop is-6-tablet is-12-mobile">
     <div class="video-embed">
-      <iframe src="https://www.youtube-nocookie.com/embed/EuvZRRsM3Xg" title="RRT-Rope video 2: paper presentation" loading="lazy" allowfullscreen></iframe>
+      <iframe src="https://www.youtube-nocookie.com/embed/EuvZRRsM3Xg" title="RRT-Rope video 2: paper presentation" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </div>
 </div>
