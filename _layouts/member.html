@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-{% for group in site.data.team %}{% for member in group.members %}{% if member.name == page.name %}{% assign photo = member.photo %}{% assign role = member.role %}{% assign year = member.year %}{% endif %}{% endfor %}{% endfor %}
+{% comment %}Current members are listed before alumni in team.yml, so the first match is the profile to show.{% endcomment %}
+{% for group in site.data.team %}{% for member in group.members %}{% if member.name == page.name and found != true %}{% assign photo = member.photo %}{% assign role = member.role %}{% assign year = member.year %}{% assign found = true %}{% endif %}{% endfor %}{% endfor %}
 {% assign about = content | strip %}
 <div class="columns member-profile is-variable is-6">
   <div class="column is-4-desktop is-5-tablet">

@@ -54,11 +54,11 @@
   venue: IEEE Robotics and Automation Letters (RA-L)
   note: under review
   bibtex: |
-    @article{poissant2026arena,
+    @article{poissant2027arena,
       author = {Poissant, David-Alexandre and Desbiens, Alexis Lussier and Ferland, Fran{\c{c}}ois and Petit, Louis},
       title = {ARENA: Adaptive Risk-aware Navigation for Autonomous Aerial Inspection},
       journal = {IEEE Robotics and Automation Letters (RA-L)},
-      year = {2026},
+      year = {2027},
       note = {Under review},
       url = {https://arxiv.org/abs/2502.19401}
     }

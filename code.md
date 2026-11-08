@@ -46,11 +46,13 @@ hero_link_text: Our GitHub repositories
 <span class="tk-com">// Attempt to solve the problem within a given planning time</span>
 ompl::base::<span class="tk-type">PlannerStatus</span> solved = planner_-&gt;<span class="tk-fn">solve</span>(<span class="tk-num">1.0</span>);
 
-<span class="tk-com">// Get the solution path</span>
-<span class="tk-kw">auto</span> *sln = <span class="tk-kw">static_cast</span>&lt;ompl::geometric::<span class="tk-type">PathGeometric</span>*&gt;(<span class="tk-fn">getProblemDefinition</span>()-&gt;<span class="tk-fn">getSolutionPath</span>().<span class="tk-fn">get</span>());
+<span class="tk-kw">if</span> (solved) {
+    <span class="tk-com">// Get the solution path</span>
+    <span class="tk-kw">auto</span> *sln = <span class="tk-kw">static_cast</span>&lt;ompl::geometric::<span class="tk-type">PathGeometric</span>*&gt;(<span class="tk-fn">getProblemDefinition</span>()-&gt;<span class="tk-fn">getSolutionPath</span>().<span class="tk-fn">get</span>());
 
-<span class="tk-com">// Perform Rope Shortcut</span>
-<span class="tk-fn">getPathSimplifier</span>()-&gt;<span class="tk-fn">ropeShortcutPath</span>(*sln);</code></pre>
+    <span class="tk-com">// Perform Rope Shortcut</span>
+    <span class="tk-fn">getPathSimplifier</span>()-&gt;<span class="tk-fn">ropeShortcutPath</span>(*sln);
+}</code></pre>
         </div>
       </div>
     </div>
