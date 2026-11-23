@@ -1,5 +1,6 @@
 ---
 title: "ARENA: Adaptive Risk-aware Navigation for Autonomous Aerial Inspection"
+subtitle: RA-L
 hero_links:
   - text: PDF
     url: https://arxiv.org/abs/2502.19401
@@ -13,12 +14,11 @@ authors:
   - name: Louis Petit
     url: /team/louis-petit/
 bibtex: |
-  @article{poissant2027arena,
+  @article{poissant2026arena,
     author = {Poissant, David-Alexandre and Desbiens, Alexis Lussier and Ferland, Fran{\c{c}}ois and Petit, Louis},
     title = {ARENA: Adaptive Risk-aware Navigation for Autonomous Aerial Inspection},
     journal = {IEEE Robotics and Automation Letters (RA-L)},
-    year = {2027},
-    note = {Under review},
+    year = {2026},
     url = {https://arxiv.org/abs/2502.19401}
   }
 ---
