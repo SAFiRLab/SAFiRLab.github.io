@@ -1,5 +1,6 @@
 ---
 name: Jiajun Zhu
 citation_name: "Zhu, J."
-topics: []
+topics:
+  - Agriculture and environmental monitoring with computer vision
 ---

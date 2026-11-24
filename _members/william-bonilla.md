@@ -1,5 +1,6 @@
 ---
 name: William Bonilla
 citation_name: "Bonilla, W."
-topics: []
+topics:
+  - Off-road traversability estimation
 ---

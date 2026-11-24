@@ -1,5 +1,6 @@
 ---
 name: Tim Bary
 citation_name: "Bary, T."
-topics: []
+topics:
+  - Human-AI decision-making
 ---
